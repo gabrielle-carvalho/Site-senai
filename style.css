@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto+Mono:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    text-align: center;
+    color: #0079d5;
+}
+
+main {
+    width: 100%;
+}
+
+.bannerPrincipal img {
+    width: 100%;
+}
+
+hr {
+    margin: 12px 0px 12px 0px;
+    border: 2px solid #0079d5;
+}
+
+.logo {
+    width: 30%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.barra-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.redessociais img {
+    width: 100%;
+}
+
+.redessociais ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redessociais ul li {
+    list-style: none;
+    width: 5%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 12px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 800;
+    padding: 12px;
+    color: #0079d5;
+}
+
+nav ul li a:hover {
+    background-color: #0079d5;
+    border-radius: 5px;
+    color: white;
+}
+
+.boasvindas h3 {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #0079d5;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 30px;
+    border: 0;
+    background-color: #0079d5;
+    color: #fff;
+    border-radius: 45px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.552);
+    color: white;
+    font-weight: 700;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
