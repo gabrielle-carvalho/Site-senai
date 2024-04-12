@@ -1,8 +1,9 @@
 nome = prompt("Qual o seu nome?");
 hora = new Date().getHours();
 
-if (nome == null || nome == "" || nome == " ")
-    nome = "Usuário";
+if (nome == null || nome == "" || nome == " "){
+alert("Escreva o seu nome");
+}
 
 function bemVindo() {
     if (hora < 12) {
